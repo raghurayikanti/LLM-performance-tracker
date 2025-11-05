@@ -16,38 +16,7 @@ Features:
 - Vector search
 - Ask AI integration
 
-Fork it and make it your own! You can track your own metrics and dimensions.
 
-Stack:
-
-- [Next.js](https://nextjs.org/) - Application
-- [Tinybird](https://tinybird.co) - Analytics
-- [OpenAI](https://openai.com/) - AI features
-- [Vercel AI SDK](https://sdk.vercel.ai/docs/introduction) - AI features
-- [Vercel](https://sdk.vercel.ai/docs/introduction) - Application deployment
-- [Clerk](https://clerk.com/) - User management and auth
-- [Tremor](https://tremor.so/) - Charts
-
-## Live Demo
-
-- https://llm-tracker.tinybird.live
-
-## Quick Start
-
-Deploy the template, instrument and use the hosted version to track.
-
-### Deploy
-
-```bash
-# install the tinybird CLI
-curl https://tinybird.co | sh
-
-# select or create a new workspace
-tb login
-
-# deploy the template
-tb --cloud deploy --template https://github.com/tinybirdco/llm-performance-tracker/tree/main/tinybird
-```
 
 ### Instrumentation
 
@@ -179,5 +148,6 @@ Join the [Tinybird Slack community](https://www.tinybird.co/community) to get he
 ## License
 
 MIT License
+
 
 ©️ Copyright 2025 Tinybird
